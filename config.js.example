@@ -1,0 +1,8 @@
+module.exports = {
+	'ethereumRpcServer': "",
+    'ethereumWsServer': "",
+    'cyberRpcServer': "",
+    'cyberChainId': "",
+    'ethereumContract': "",
+    'ethereumGasPriceGwei': ""
+}
