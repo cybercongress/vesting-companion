@@ -221,6 +221,20 @@
   {
     "constant": true,
     "inputs": [],
+    "name": "historyId",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
     "name": "kernel",
     "outputs": [
       {
@@ -240,20 +254,6 @@
       {
         "name": "",
         "type": "bool"
-      }
-    ],
-    "payable": false,
-    "stateMutability": "view",
-    "type": "function"
-  },
-  {
-    "constant": true,
-    "inputs": [],
-    "name": "historyLength",
-    "outputs": [
-      {
-        "name": "",
-        "type": "uint256"
       }
     ],
     "payable": false,
@@ -397,11 +397,11 @@
     "constant": false,
     "inputs": [
       {
-        "name": "amount",
+        "name": "_amount",
         "type": "uint256"
       },
       {
-        "name": "account",
+        "name": "_account",
         "type": "string"
       }
     ],
