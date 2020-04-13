@@ -138,7 +138,7 @@ async function sendProof(id, claimer, proof) {
         data: dataProof
     };
     
-    let tx = new Tx(rawTx, {'chain':'rinkeby'});
+    let tx = new Tx(rawTx, {'chain':'mainnet'});
 
     tx.sign(ethereumPrivateKey);
     const serializedTx = tx.serialize();
